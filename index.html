@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="1500x1500" href="./images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  
+  <title>Responsive Flex-boxed QR code component</title>
+
+  <!-- stylesheet 👍 -->
+  <style>
+    *{ margin: 0; padding: 0; box-sizing: border-box;}
+    .homepage { background-color: rgb(182, 196, 201); display: flex; align-items: center; justify-content: center; height: 100vh; width: 100vw; overflow: auto; padding: 5% 40%;}
+    .pack{ display: flex; align-items: center; justify-content: center; }
+    .container { font-family: 'Poppins', sans-serif; background-color: rgb(255, 255, 255); padding: 15px; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+    .qrImage { height: 100%; width: 100%; border-radius: 10px;} 
+    .attribution { padding: 20px 0px; font-size: 12px;  text-align: center;  color:hsl(223, 62%, 18%); }
+    .attribution h2{ font-weight: 800; font-size: medium; }
+    .attribution p { color: hsl(228, 20%, 45%); padding: 15px 15px 0 15px;}
+
+    @media screen and (max-width: 1350px) {
+      .attribution { margin: 20px 10px; }
+      .attribution p { margin: 10px 0px; padding: 0% 5%;}
+      .homepage { padding: 15% 10%;  }
+    }
+
+    @media screen and (min-width: 426px) and (max-width: 1350px) {
+      .container { height: 60%; width: 60%}
+      .homepage { padding: 0% 0%; }
+      .attribution { padding: 0; margin: 10px 0;}
+    }
+
+    @media screen and (min-width: 321px) and (max-width: 425px) {
+      .attribution p {  padding: 5px 20px 0 20px;}
+    }
+
+    @media screen and (max-width: 320px) {
+      .homepage { padding: 10% 5%;  }
+    }
+  </style>
+</head>
+<body class="homepage">
+  <div class="pack">
+    <div class="container">
+      <img class="qrImage" src="./images/image-qr-code.png" alt="QR Code">
+      <div class="attribution">
+        <h2> 
+          Improve your front-end skills by building projects
+        </h2>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level 
+        </p>
+        <!-- <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">codepipr</a>.
+        </div> -->
+      </div>
+  </div>
+  </div>
+</body>
+</html>
