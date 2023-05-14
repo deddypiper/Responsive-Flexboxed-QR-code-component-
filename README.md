@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/deddypiper/Responsive-Flexboxed-QR-code-component-/settings/pages)
+- Live Site URL: [Add live site URL here](https://github.com/deddypiper/Responsive-Flexboxed-QR-code-component-/settings/pages)
 
 ## My process
 
@@ -45,5 +45,5 @@ To see how you can add code snippets, see below:
 ## Author
 
 - Website - [codepipr](https://www.codepipr-portfolio.netlify.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/deddypiper)
-- Twitter - [@yourusername](https://www.twitter.com/deddypiper)
+- Frontend Mentor - [@deddypiper](https://www.frontendmentor.io/profile/deddypiper)
+- Twitter - [@deddypiper](https://www.twitter.com/deddypiper)
